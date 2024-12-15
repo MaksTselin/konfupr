@@ -1,0 +1,11 @@
+y is 20;
+x is 3;
+sum is 23;
+employee -> {
+name -> @"Alice".
+age -> 25.
+address -> {
+city -> @"San Francisco".
+street -> @"Market Street".
+}.
+}

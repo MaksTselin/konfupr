@@ -1,0 +1,10 @@
+x is 10;
+result is 15;
+person -> {
+name -> @"John".
+age -> 30.
+address -> {
+city -> @"New York".
+street -> @"Broadway".
+}.
+}

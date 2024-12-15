@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <constant name="z">
+        <value type="number">15</value>
+    </constant>
+
+    <constant name="x">
+        <value type="number">15</value>
+    </constant>
+    
+    <constant name="total">
+        <value type="expression">x z +</value>
+    </constant>
+    
+    <dictionary name="animal">
+        <entry name="type">
+            <value type="string">Cat</value>
+        </entry>
+        <entry name="age">
+            <value type="number">5</value>
+        </entry>
+        <entry name="details">
+            <value type="dictionary">
+                <entry name="color">
+                    <value type="string">Black</value>
+                </entry>
+                <entry name="breed">
+                    <value type="string">Persian</value>
+                </entry>
+            </value>
+        </entry>
+    </dictionary>
+</config>

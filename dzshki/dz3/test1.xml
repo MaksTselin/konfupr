@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <constant name="x">
+        <value type="number">10</value>
+    </constant>
+    
+    <constant name="result">
+        <value type="expression">x 5 +</value>
+    </constant>
+    
+    <dictionary name="person">
+        <entry name="name">
+            <value type="string">John</value>
+        </entry>
+        <entry name="age">
+            <value type="number">30</value>
+        </entry>
+        <entry name="address">
+            <value type="dictionary">
+                <entry name="city">
+                    <value type="string">New York</value>
+                </entry>
+                <entry name="street">
+                    <value type="string">Broadway</value>
+                </entry>
+            </value>
+        </entry>
+    </dictionary>
+</config>

@@ -1,0 +1,11 @@
+z is 15;
+x is 15;
+total is 30;
+animal -> {
+type -> @"Cat".
+age -> 5.
+details -> {
+color -> @"Black".
+breed -> @"Persian".
+}.
+}

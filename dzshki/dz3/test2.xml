@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <constant name="y">
+        <value type="number">20</value>
+    </constant>
+
+    <constant name="x">
+        <value type="number">3</value>
+    </constant>
+    
+    <constant name="sum">
+        <value type="expression">x y +</value>
+    </constant>
+    
+    <dictionary name="employee">
+        <entry name="name">
+            <value type="string">Alice</value>
+        </entry>
+        <entry name="age">
+            <value type="number">25</value>
+        </entry>
+        <entry name="address">
+            <value type="dictionary">
+                <entry name="city">
+                    <value type="string">San Francisco</value>
+                </entry>
+                <entry name="street">
+                    <value type="string">Market Street</value>
+                </entry>
+            </value>
+        </entry>
+    </dictionary>
+</config>
